@@ -101,10 +101,4 @@ editAccept.addEventListener('click', acceptEdit)
 
 
 
-//1.funkcja ktora tworzy zadanie do wykonania + listenre na przycisk ADD
-//2.Funkcja na button fajki która przekresla zadanie jako wykonane
-//3.Funkcja na button x ktora usuwa zadanie/element html z naszej listy
-//4.Funkcja na przycisk edit ktora włącza popup do edycji i bierze wartos z input
-//5.funkcja do zatwierzenia zmiany
-//6.funkcja do anulowania zmiany zchowania popup
-//7.Zabezpieczenia przed pustymi zadaniami
+
