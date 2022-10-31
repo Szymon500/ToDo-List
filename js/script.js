@@ -89,9 +89,16 @@ const addHandler = () => {
 	}
 }
 
+const enterHandle = (event) =>{
+	if(event.keyCode == 13){
+		addHandler()
+	}
+}
 addButton.addEventListener('click', addHandler)
+window.addEventListener('keydown', enterHandle)
 editCancel.addEventListener('click', cancelEdit)
 editAccept.addEventListener('click', acceptEdit)
+
 
 
 //1.funkcja ktora tworzy zadanie do wykonania + listenre na przycisk ADD
